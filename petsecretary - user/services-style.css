@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: unset;
+    align-items: center;
+}
+.search-box{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(203, 229, 255);
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.search-box:hover > .search-txt{
+    width: 200px;
+    height: 20px;
+    padding:0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+    margin: -10px;
+}
+
+.search-btn{
+    color: rgb(65, 159, 253);
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(203, 229, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -10px;
+    transition: 0.4s;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(65, 159, 253);
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+::placeholder{
+    color:rgb(65, 159, 253);
+}
+.catagories{
+    padding: 20px 0;
+
+}
+.small-container{
+    background-color: white;
+    padding: 50px;
+    padding-right: 90px;
+    padding-left: 90px;
+    margin-left: 280px;
+    margin-right: 280px;
+    text-align: center;
+}
+.small-container img{
+    width: 200px;
+    border-radius: 50%;
+}
+h3{
+    font-size: 40px;
+    color:rgb(252, 165, 179);
+    font-family: 'Chelsea Market';
+    text-align: center;
+    margin-bottom: 30px;
+}
+.col-3:hover, .col-4:hover{
+    transform: translateY(-5px);
+    background-color: rgb(253, 243, 243);
+}
+.col-3, .col-4 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    border-radius: 70%;
+}
+.row {
+    padding-top: 40px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row1{
+    padding-top: 10px;
+}
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.small-container h5{
+    font-family: 'DIN Light Regular';
+    color: rgb(138, 196, 255);
+    padding-bottom: 50px;
+}
+.small-container h4{
+    font-size: 20px;
+    color:rgb(71, 163, 255);
+    font-family: 'Chelsea Market';
+}
+.small-container p{
+    font-size: 15px;
+    font-family: 'DIN Light Regular';
+    color: rgb(252, 165, 179);
+    font-weight: bold;
+}
+.small-container small{
+    font-size: 12px;
+    font-family: 'DIN Light Regular';
+    color: rgb(138, 196, 255);
+}
+.btn1 {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(119, 185, 252);
+    font-family: 'DIN Light Regular';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+}
+.btn1:hover{
+    background-color: pink;
+    border: none;
+}
+.btn2 {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(119, 185, 252);
+    font-family: 'DIN Light Regular';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+}
+.btn2:hover{
+    background-color: pink;
+    border: none;
+}
+.btn3 {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(119, 185, 252);
+    font-family: 'DIN Light Regular';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+}
+.btn3:hover{
+    background-color: pink;
+    border: none;
+}
+.btn4 {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(119, 185, 252);
+    font-family: 'DIN Light Regular';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+}
+.btn4:hover{
+    background-color: pink;
+    border: none;
+}
+.btn5 {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(119, 185, 252);
+    font-family: 'DIN Light Regular';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+}
+.btn5:hover{
+    background-color: pink;
+    border: none;
+    
+}
+/*.small-container{/
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+}

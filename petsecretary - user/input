@@ -1,0 +1,20 @@
+<div class="columns">
+                        <div class="info">
+                            <h4>NAME</h4>
+                            <input type="text" class="input" value="Kaku">
+
+                            <h4>BIRTH DATE</h4>
+                            <input type="text" class="input" value="01/04/2020">
+
+                            <h4>TYPE</h4>
+                            <input type="text" class="input" value="Cat">
+
+                            <h4>GENDER</h4>
+                            <input type="text" class="input" value="Male">
+
+                            <h4>BREED</h4>
+                            <input type="text" class="input" value="Tuxedo">
+                            <br>
+                            <br><a href="7-pet_info.php">Update Info <i2 class="fa fa-chevron-right"></i2></a>
+                        </div>
+                    </div>

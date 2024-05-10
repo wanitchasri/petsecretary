@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    font-family: 'Chelsea Market';
+}
+
+h4, h6{
+    font-family: 'DIN Light Regular';
+}
+
+.main{
+    display: flex;
+    align-items: unset;
+    flex-wrap: wrap;
+    justify-content: unset;
+}
+
+/* User */
+.user-container{
+    background-color: white;
+    border:rgb(185, 220, 255) 2px solid;
+    margin-top: 20px;
+    margin-left: 350px;
+    padding: 40px 25px;
+    text-align: center;
+}
+.user-container i{
+    font-size: 70px;
+    padding-bottom: 10px;
+    color: rgb(138, 196, 255);
+}
+.user-container h3{
+    padding-top: 5px;
+    font-size: 15px;
+    color:rgb(119, 185, 252);
+}
+
+/* Menu */
+.menu-container{
+    background-color: white;
+    margin-left: 350px;
+    text-align: center;
+    border:rgb(185, 220, 255) 2px solid;
+    margin-top: 20px;
+}
+menu{
+    padding: 10px 25px;
+}
+menu:hover{
+    font-weight: bold;
+    background:rgb(185, 220, 255);
+}
+.menu-container a{
+    font-family: 'DIN Light Regular';
+}
+.menu-container a:hover{
+    font-weight: bold;
+    color: white;
+}
+
+/* Pet Info */
+.account-container{
+    background-color: white;
+    border:rgb(203, 229, 255) 2px solid;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.rows{
+    margin-top: 10px;
+}
+
+.columns{
+    float: left;
+    box-sizing: border-box;
+}
+h5, h6, h7, h8, H9{
+    font-family: 'DIN Light Regular';
+}
+h5{
+    font-family: 'Chelsea Market';
+    font-size: 35px;
+    color: rgb(65, 159, 253);
+    text-align: left;
+}
+h6{
+    padding-top: 10px;
+    color: rgb(252, 165, 179);
+    text-align: left;
+    font-size: 12px;
+}
+
+hr{
+    border: 2px dashed rgb(162, 209, 255); 
+    width: 50%; 
+    margin-top: 10px; 
+    margin-bottom: 5%;
+    margin-left: 0;
+}
+
+h7, .columns i2{
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(49, 152, 255);
+}
+.columns i2:hover{
+    color: rgb(119, 185, 252);
+}
+
+h8{
+    font-size: 12px;
+    font-weight: bold;
+    color:rgb(65, 159, 253);
+}
+h9{
+    font-size: 10px;
+    color:pink;
+}
+
+h10{
+    background-color: rgb(255, 228, 233);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+    font-family: 'DIN Light Regular';
+    font-weight: bold;
+    color:black;
+    font-size: 14px;
+}
+
+.input2{
+    width: 335px;
+}
+
+.update a{
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(119, 185, 252);
+
+    font-family: 'DIN Light Regular';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+
+    padding: 10px;
+}
+.update a:hover{
+    background-color: #69ddc8;
+}
+
+.update i3{
+    color: white;
+}
+
+.add-ac i6{
+   font-size: 13px; 
+}
+.add-ac i6:hover{
+    color:#01C5A2;
+}
+
+
+

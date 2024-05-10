@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background */
+html{
+    background-image: url("images/colorful2.jpg");
+    background-size: cover;
+    height: 100%;
+    overflow-y: scroll; overflow-x: hidden;
+}
+
+@font-face{
+    font-family: "DIN Light Regular";
+    rc: url("font/DIN\ Light\ Regular.otf");
+    src:
+    url("font/DIN\ Light\ Regular.otf") format("woff"),
+    url("font/DIN\ Light\ Regular.otf") format("opentype"),
+    url("font/DIN\ Light\ Regular.otf") format("svg");
+}
+
+.header a{
+    /* no  underline */
+    text-decoration: none;
+    /* text color of menus */
+    color: rgb(71, 163, 255);
+}
+.navbar:hover{
+    color: white;
+}
+.navbar a:hover{
+    color: white;
+}
+
+/* Container */
+.container{
+    /* max-width: 1300px; */
+    margin: auto;
+    /* padding-left: 25px;
+    padding-right: 25px; */
+}
+
+/* Logo */
+.logo{
+    padding-top: 10px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+}
+.logo img{
+    width: 80px;
+    display: inline-block;
+}
+h1{
+    color:rgb(71, 163, 255);
+    font-family: 'Chelsea Market', cursive;
+}
+h2{
+    padding-top: 3px;
+    font-size: 14px;
+    color: rgb(138, 196, 255);
+    font-family: sans-serif;
+}
+.fa-plus{
+    color: rgb(255, 169, 184);
+    padding-right: 10px;
+    font-size: 40px;
+}
+
+.user{
+    position: absolute;
+    width: 100%;
+    top: 120px;
+    left: 1200px;
+}
+span{
+    color: rgb(71, 163, 255);
+    font-size: 30px;
+}
+.sub-menu{
+    display: none;
+}
+ul{
+    list-style-type: none;
+}
+.sub-menu a{
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'DIN Light Regular';
+    font-weight: normal;
+    color: rgb(34, 34, 34);
+}
+.sub-menu a:hover{
+    font-weight: bold;
+    color: pink;
+}
+
+.user:hover .sub-menu{
+    display: block;
+    position: fixed;
+    background: white;
+    padding: 15px 25px;
+    margin-left: -15px;
+}
+
+/* Navigation Bar */
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 248, 248);
+    overflow: auto;
+}
+nav{
+    flex: 1;
+    /* margin the menu bar to the right */
+    text-align: center;
+    font-family: 'DIN Light Regular';
+}
+nav ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+nav ul menu{
+    padding: 12px 60px;
+    border-right: 1px solid pink;
+}
+.active, .navbar nav ul menu:hover{
+    background: pink;
+    font-weight: bolder;
+}
+.navbar nav ul menu:hover {
+    background: rgb(185, 220, 255);
+}
+
+.input-group {
+    text-align: center;
+}

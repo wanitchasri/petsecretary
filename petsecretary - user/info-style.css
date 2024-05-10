@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h3{
+    font-family: 'Chelsea Market';
+}
+
+h4, h6{
+    font-family: 'DIN Light Regular';
+}
+
+.main{
+    display: flex;
+    align-items: unset;
+    flex-wrap: wrap;
+    justify-content: unset;
+}
+
+/* User */
+.user-container{
+    background-color: white;
+    border:rgb(185, 220, 255) 2px solid;
+    margin-top: 20px;
+    margin-left: 350px;
+    padding: 40px 25px;
+    text-align: center;
+}
+.user-container i{
+    font-size: 70px;
+    padding-bottom: 10px;
+    color: rgb(138, 196, 255);
+}
+.user-container h3{
+    padding-top: 5px;
+    font-size: 15px;
+    color:rgb(119, 185, 252);
+}
+
+/* Menu */
+.menu-container{
+    background-color: white;
+    margin-left: 350px;
+    text-align: center;
+    border:rgb(185, 220, 255) 2px solid;
+    margin-top: 20px;
+}
+menu{
+    padding: 10px 25px;
+}
+menu:hover{
+    font-weight: bold;
+    background:rgb(185, 220, 255);
+}
+.menu-container a{
+    font-family: 'DIN Light Regular';
+}
+.menu-container a:hover{
+    font-weight: bold;
+    color: white;
+}
+
+/* Pet Info */
+.petinfo-container{
+    background-color: white;
+    border:rgb(255, 214, 221) 2px solid;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+i4{
+    color:pink;
+}
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.columns{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+h5{
+    font-family: 'Chelsea Market';
+    font-size: 35px;
+    color: rgb(252, 165, 179);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.add-ac i6{
+    position: absolute;
+    margin-left: 350px;
+    font-size: 20px;
+}
+.add-ac i6:hover{
+    color: #69ddc8;
+}
+
+hr{
+    border: 2px dashed rgb(65, 159, 253); 
+    width: 50%; 
+    margin: auto; 
+    margin-top: 10px; 
+    margin-bottom: 5%;
+}
+
+.petinfo-container img{
+    max-width:250px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(203, 229, 255);
+}
+.petinfo-container img:hover{
+    transform: translateY(-5px);
+}
+
+.petinfo-container .columns h7{
+    background-color: rgb(255, 228, 233);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+    font-family: 'DIN Light Regular';
+    font-weight: bold;
+    color:black;
+    font-size: 14px;
+}
+
+i5{
+    padding-top: 10px;
+    font-size: 90px;
+    color:rgb(255, 205, 214);
+}
+
+h4{
+    font-size: 12px;
+    color: rgb(255, 162, 178);
+}
+.image{
+    text-align: center;
+}
+h6{
+    font-size: 12px;
+    padding-top: 5px;
+    color:rgb(65, 159, 253);
+}
+
+.petinfo-container h7{
+    background-color: rgb(255, 228, 233);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+    font-family: 'DIN Light Regular';
+    font-weight: bold;
+    color:black;
+    font-size: 14px;
+}
+
+inputP{
+    background-color: rgb(255, 228, 233);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+
+    font-family: 'DIN Light Regular';
+    font-weight: bold;
+    color:black;
+    font-size: 14px;
+}
+
+.info{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.input{
+    background-color: rgb(215, 234, 253);
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    font-family: 'DIN Light Regular';
+    font-weight: bold;
+    color:rgb(65, 159, 253);
+    font-size: 14px;
+}
+
+.input2{
+    margin-top: 20px;
+    
+    background-color: rgb(255, 230, 234);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+
+    font-family: 'DIN Light Regular';
+    font-weight: bold;
+    color:rgb(253, 148, 168);
+    font-size: 18px;
+    width: 20%;
+}
+
+.info a{
+    border: none;
+    border-radius: 2px;
+    background-color: pink;
+
+    font-family: 'DIN Light Regular';
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+
+    padding: 10px;
+    margin-top: 10px;
+}
+.info a:hover{
+    background-color: #69ddc8;
+}
+

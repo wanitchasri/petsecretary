@@ -1,0 +1,62 @@
+.main{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* Main Photo */
+.main img{
+    width: 850px;
+    max-width: 100%;
+    /*from top & bottom: 1px*/
+    /* from left & right: 0 */
+    padding: 5px 0;
+}
+.welcome{
+    /* change the font of main text */
+    font-size: 45px;
+    position: absolute;
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    color: white;
+}
+.welcome2{
+    font-size: 15px;
+    position: absolute;
+    bottom: 50px;
+    color: white;
+    font-family: 'DIN Light Regular', sans-serif;
+}
+
+/* Button 'Book Now' */
+.btn{
+    display: inline-block;
+    /* button bg color */
+    background: #01C5A2;
+    /* text color */
+    color: #fff;
+    font-family: 'DIN Light Regular';
+    /*position*/
+    position: absolute;
+    bottom: 90px;
+    /* space between text and container */
+    /* 8 for top&bottom, 30 for left&right */
+    padding: 10px 50px;
+    margin: 10px 0;
+    /* curve the corners */
+    border-radius: 30px;
+    font-weight: bold;
+}
+.btn:hover{
+    background: pink;
+}
+
+/*.header{
+    /* Background of the Header
+    background-image: url("images/colorful2.jpg");
+    background-size: cover;
+}*/
+
+.main a{
+    color: white;
+}
