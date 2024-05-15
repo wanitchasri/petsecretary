@@ -1,7 +1,7 @@
 PetSecretary: Web application designed to help veterinary hospitals manage their information and service operations. 
 
 Project Contributor: Sutisan Nilrattanakul <br />
-Remark: This project was implemented for educational purpose as a part of Database Systems course at VMS ABAC. Due to limited development time frame, the project has not been completed.
+Remark: This project was implemented for educational purpose as a part of Database Systems course at VMS ABAC. Due to limited development time frame, the project scope had been partially delivered.
 
 Functional Scope
 1) Staff
